@@ -1,0 +1,35 @@
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link href="./css.css" rel="stylesheet">
+
+<!-- 
+    The code below is only required for SteamLabs. 
+    The above links are to just get it to work in a browser or html editor.
+-->
+
+<!-- main alert box window -->
+<div id="wrapper">
+    <div id="alert-text-wrap">
+        <!-- alert text -->
+        <div id="alert-text">
+            <!-- alert message -->
+            <!-- messageTemplate will be replaced with your message template -->
+            <!-- for example : {name} is now following! or {name} donated {amount} -->
+            <table>
+                <tr id="bar">
+                    <td id="buttons"></td>
+                    <td id="hostname">joshrpg@twitch.tv:~</td>
+                </tr>
+                <tr id="alert">
+                    <td colspan="2" id="alert-body">
+                        <div id="alert-message">{messageTemplate}</div>
+                    </td>
+                </tr>
+                <tr id="alert">
+                    <td colspan="2" id="alert-body">
+                        <div id="alert-user-message">{userMessage}</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,91 @@
+.widget-AlertBox {
+    position: relative;
+}
+
+body, html {
+    overflow: hidden;
+    font-family: 'Inconsolata', monospace;
+    color: mintcream;
+}
+
+#alert-box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#alert-box.hidden, .hidden {
+    opacity: 0;
+}
+
+#alert-text {
+    z-index: 6;
+    position: relative;
+    padding: 20px;
+}
+
+#alert-text-wrap {
+    z-index: 6;
+    position: relative;
+    width: 100%;
+}
+
+#wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 60rem;
+    height: 100%;
+    width: 100%;
+}
+
+#alert-message, #alert-user-message, #alert-user-command {
+    padding-right: 10px;
+}
+
+#alert-user-command {
+    font-size: 40px;
+}
+
+#bar {
+    background-color: #57554d;
+    font-size: 15px;
+}
+
+#hostname {
+    text-align: left;
+}
+
+#buttons {
+    background-image: url(https://uploads.twitchalerts.com/000/023/286/164/buttons.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5px;
+    height: 23px;
+    width: 70px !important;
+}
+
+#alert-body {
+    background-color: #300a24;
+    font-size: 15px;
+    height: 30px !important;
+    padding: 3px;
+    width: 100%;
+}
+
+yellowgreen {
+    color: yellowgreen;
+}
+
+table {
+    border: none !important;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+img[src="https://streamlabs.com/alert-box/v3/null"] {
+    display: none!important;
+}
